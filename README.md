@@ -15,7 +15,7 @@ Projede Microsoft SQL Server ve C# programlama dilini kullanarak masaüstü kita
 
 1. ***Kullanıcı Modu:***
     - **Giriş Ekranı:** Kayıt ol kısmındaki tüm bilgileri girerek kayıt olabilir. Sonrasında sağ tarafta olan giriş yap kısmı ile giriş yapabilir. Eğer ki satıcı giriş yapmak isterse satıcı girişi tikini işaretlemelidir. Veri tabanına kayıtlı kullanıcı tiplerine göre giriş yapıldıktan sonra farklı arayüzler açılmaktadır
-    ![Giris Ekranı](Screenshots\giris.png)
+    ![Giris Ekranı](https://github.com/muhammedaltunisik/KitapYurdu/blob/master/Screenshots/giris.png)
     - **Müşteri Ekranı:** Kullanıcı tipi “M” olan kullanıcılar için müşteri ekranı açılır. Bu ekranda veritabanına kayıtlı olan tüm ürünler sıralanır. Aynı zamanda bu ekrandan sepete ekleme/çıkarma işlemleri, sipariş geçmişi, sipariş onaylama, urun arama, satıcı arama, tüm ürünleri görmeve hesap ayarları yapılır. Adres bilgisini seçtikten sonra sepet, onaylayabiliriz. Siparişi onayladıktan sonra veritabanına kayıtlı trigger sayesinde ürün adeti sipariş oranında azaltılır.  Ürün arama, Satıcı arama ve tüm ürünleri ekrana getirme gibi özellikler veri tabanına kayıtlı spler ile gerçekleştirilir.
     ![Musteri Ekrani](Screenshots\Musteri_SepeteEkle.png)
     - **Sipariş Geçmişi:** : Seçmiş siparişler butonuna tıklarsak bu ekran açılır. Bu ekranda geçmişe dönük siparişlerimizin durumunu, sipariş kodunu, verildiği tarihi, kaç edet ürün sipariş ettiğimizi ve toplam fiyat bilgisini görürüz. Herhangi bir siparişin üzerine tıklayıp sipariş detaylarını göster dersek  onayladığımız sepetteki ürünlerin adlarını, fiyatlarını sipariş adreslerini, durumlarını sırasıyla görmüş oluruz.
