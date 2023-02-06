@@ -1,0 +1,23 @@
+Projeyi çalıştırmak için öncelikle veri tabanını oluşturmak gerekli.
+
+1.Yol: Veriler klasörü içerisinde ki script.sql dosyasını mssql içerisinde açıp çalıştırırsak veri tabanı oluşturulur.
+
+2.Yol: Veriler klasörü içerinde ki KitapYurdu.bacpac adlı dosyayı veri tabanına Databases üzerine gelip sağ tıklıyoruz.
+Sonrasında Import Data-teir Application u seçiyoruz. Açılan pencerece next diyoruz. Sonrasında
+Import from local disk yazan yerin sağındaki Browseye tıklayıp KitapYurdu.bac.pac dosyasının bulunduğu
+kısma gelip dosyası seçip aç diyoruz. Veri tabanı ismini değiştirip yada aynı tutup next'e basıyoruz.
+Veri tabanı eklenmiş oluyor.
+
+
+Sonrasında KitapYurdu klasörü içerisinde ki KitapYurdu.sln dosyasını açıyoruz. Açıldıktan sonra 
+Proje sekmesi altında yeni veri kaynağı ekleyi seçiyoruz. Açılan ekranda Veritabanını seçip ileri diyoruz.
+Veri kümesini seçip ileri diyoruz. Yeni bağlantı diyip Sucunu adını giriyoruz. Sonrasında Veritabanı adını 
+seçin veya girin kısmından veri tabanımızın adını seçip tamama basıyoruz.
+Uygulamada kaydedilecek bağlantı dizesini göstere basıp çıkan kısmı kopyalıyoruz. Sonra ileri diyoruz.
+Tekrar ileri diyoruz. Veri kümenizde hangi veritabanını nesnelerini istiyorsunuz? diye sorduğu zaman
+tüm kutucukları işaretliyoruz. Son diyip bitiriyoruz.
+
+Sonrasında projede ki tüm formlar için yazılı olan SqlConnection baglanti = new SqlConnection(X) kodundaki
+x yerine kopyaladığımız değeri giriyoruz. 
+
+Proje artık kullanılmaya hazır. 
